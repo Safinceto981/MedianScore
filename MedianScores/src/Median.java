@@ -5,6 +5,8 @@ public class Median {
 
 	public static void main(String[] args) {
 	
+		
+	
 
 		int n ;
 		Scanner s = new Scanner(System.in);
@@ -22,11 +24,15 @@ public class Median {
 	     double median = median(scores);
 	     System.out.println("Median mark is : " + Math.round(median));
 	  
+	     System.out.println((Arrays.toString(i)));
 
+	     
 
 	  }
 	 
 	  static double median(int[] scores) {
+		  
+		  
 
 	     Arrays.sort(scores);
 	     double median;
@@ -41,7 +47,13 @@ public class Median {
 	        // get the middle element
 	        median = (double) scores[scores.length / 2];
 	        
+	        
+	        
 	  }
 	  return median;
+	  
+	  
 	 }
+	  
+	  
 }
